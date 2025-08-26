@@ -1,0 +1,3 @@
+C:/LightYearsEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/LightYearsEngine/build/CMakeFiles/ZERO_CHECK.dir
+C:/LightYearsEngine/build/LightYears/CMakeFiles/LightYearsGame.dir

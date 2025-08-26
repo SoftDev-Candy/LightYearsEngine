@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LightYearsEngine\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD83F35E-139A-3E0F-B1AB-9C4AAE184E0D}|LightYears\\LightYearsGame.vcxproj|C:\\LightYearsEngine\\LightYears\\CmakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A313154-0DD2-3837-82D2-202B4FDA6B06}|ALL_BUILD.vcxproj|C:\\LightYearsEngine\\CmakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD83F35E-139A-3E0F-B1AB-9C4AAE184E0D}|LightYearsGame.vcxproj|C:\\LightYearsEngine\\LightYears\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CmakeLists.txt",
+              "DocumentMoniker": "C:\\LightYearsEngine\\LightYears\\CmakeLists.txt",
+              "RelativeDocumentMoniker": "..\\LightYears\\CmakeLists.txt",
+              "ToolTip": "C:\\LightYearsEngine\\LightYears\\CmakeLists.txt",
+              "RelativeToolTip": "..\\LightYears\\CmakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-26T13:06:32.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CmakeLists.txt",
+              "DocumentMoniker": "C:\\LightYearsEngine\\CmakeLists.txt",
+              "RelativeDocumentMoniker": "..\\CmakeLists.txt",
+              "ToolTip": "C:\\LightYearsEngine\\CmakeLists.txt",
+              "RelativeToolTip": "..\\CmakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-26T12:49:26.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\LightYearsEngine\\LightYears\\src\\main.cpp",
+              "RelativeDocumentMoniker": "..\\LightYears\\src\\main.cpp",
+              "ToolTip": "C:\\LightYearsEngine\\LightYears\\src\\main.cpp",
+              "RelativeToolTip": "..\\LightYears\\src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-26T12:57:31.594Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

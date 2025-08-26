@@ -1,0 +1,10 @@
+^C:\LIGHTYEARSENGINE\BUILD\CMAKEFILES\B27F0198661E35C9140762DEBD922215\GENERATE.STAMP.RULE
+setlocal
+C:\DontDeleteForVSCODE\mingw64\bin\cmake.exe -SC:/LightYearsEngine -BC:/LightYearsEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/LightYearsEngine/build/LightYears.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
