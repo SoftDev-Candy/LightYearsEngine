@@ -286,3 +286,239 @@ events:
       Microsoft (R) Incremental Linker Version 14.43.34810.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ek3ycg"
+      binary: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ek3ycg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/LightYearsEngine/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ek3ycg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1a042.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 8/26/2025 4:24:24 PM.
+        
+        Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\cmTC_1a042.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1a042.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\Debug\\".
+          Creating directory "cmTC_1a042.dir\\Debug\\cmTC_1a042.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1a042.dir\\Debug\\cmTC_1a042.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1a042.dir\\Debug\\cmTC_1a042.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a042.dir\\Debug\\\\" /Fd"cmTC_1a042.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a042.dir\\Debug\\\\" /Fd"cmTC_1a042.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\Debug\\cmTC_1a042.exe" /INCREMENTAL /ILK:"cmTC_1a042.dir\\Debug\\cmTC_1a042.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ek3ycg/Debug/cmTC_1a042.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ek3ycg/Debug/cmTC_1a042.lib" /MACHINE:X64  /machine:x64 cmTC_1a042.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1a042.vcxproj -> C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\Debug\\cmTC_1a042.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1a042.dir\\Debug\\cmTC_1a042.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1a042.dir\\Debug\\cmTC_1a042.tlog\\cmTC_1a042.lastbuildstate".
+        Done Building Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3ycg\\cmTC_1a042.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-lcn4ni"
+      binary: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-lcn4ni"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/LightYearsEngine/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-lcn4ni'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b3963.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 8/26/2025 4:24:25 PM.
+        
+        Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\cmTC_b3963.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b3963.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\Debug\\".
+          Creating directory "cmTC_b3963.dir\\Debug\\cmTC_b3963.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b3963.dir\\Debug\\cmTC_b3963.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b3963.dir\\Debug\\cmTC_b3963.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3963.dir\\Debug\\\\" /Fd"cmTC_b3963.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3963.dir\\Debug\\\\" /Fd"cmTC_b3963.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\Debug\\cmTC_b3963.exe" /INCREMENTAL /ILK:"cmTC_b3963.dir\\Debug\\cmTC_b3963.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-lcn4ni/Debug/cmTC_b3963.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-lcn4ni/Debug/cmTC_b3963.lib" /MACHINE:X64  /machine:x64 cmTC_b3963.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b3963.vcxproj -> C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\Debug\\cmTC_b3963.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b3963.dir\\Debug\\cmTC_b3963.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b3963.dir\\Debug\\cmTC_b3963.tlog\\cmTC_b3963.lastbuildstate".
+        Done Building Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcn4ni\\cmTC_b3963.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-buuuj6"
+      binary: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-buuuj6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/LightYearsEngine/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-buuuj6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2ba44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 8/26/2025 4:24:25 PM.
+        
+        Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\cmTC_2ba44.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2ba44.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\Debug\\".
+          Creating directory "cmTC_2ba44.dir\\Debug\\cmTC_2ba44.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2ba44.dir\\Debug\\cmTC_2ba44.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2ba44.dir\\Debug\\cmTC_2ba44.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ba44.dir\\Debug\\\\" /Fd"cmTC_2ba44.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ba44.dir\\Debug\\\\" /Fd"cmTC_2ba44.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\Debug\\cmTC_2ba44.exe" /INCREMENTAL /ILK:"cmTC_2ba44.dir\\Debug\\cmTC_2ba44.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-buuuj6/Debug/cmTC_2ba44.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-buuuj6/Debug/cmTC_2ba44.lib" /MACHINE:X64  /machine:x64 cmTC_2ba44.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2ba44.vcxproj -> C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\Debug\\cmTC_2ba44.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2ba44.dir\\Debug\\cmTC_2ba44.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2ba44.dir\\Debug\\cmTC_2ba44.tlog\\cmTC_2ba44.lastbuildstate".
+        Done Building Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-buuuj6\\cmTC_2ba44.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/DontDeleteForVSCODE/mingw64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ia5qa0"
+      binary: "C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ia5qa0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/LightYearsEngine/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ia5qa0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_57ee9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 8/26/2025 4:24:26 PM.
+        
+        Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\cmTC_57ee9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_57ee9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\Debug\\".
+          Creating directory "cmTC_57ee9.dir\\Debug\\cmTC_57ee9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_57ee9.dir\\Debug\\cmTC_57ee9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_57ee9.dir\\Debug\\cmTC_57ee9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57ee9.dir\\Debug\\\\" /Fd"cmTC_57ee9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\SIZEOF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57ee9.dir\\Debug\\\\" /Fd"cmTC_57ee9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\Debug\\cmTC_57ee9.exe" /INCREMENTAL /ILK:"cmTC_57ee9.dir\\Debug\\cmTC_57ee9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ia5qa0/Debug/cmTC_57ee9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LightYearsEngine/build/CMakeFiles/CMakeScratch/TryCompile-ia5qa0/Debug/cmTC_57ee9.lib" /MACHINE:X64  /machine:x64 cmTC_57ee9.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_57ee9.vcxproj -> C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\Debug\\cmTC_57ee9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_57ee9.dir\\Debug\\cmTC_57ee9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_57ee9.dir\\Debug\\cmTC_57ee9.tlog\\cmTC_57ee9.lastbuildstate".
+        Done Building Project "C:\\LightYearsEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ia5qa0\\cmTC_57ee9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+...
